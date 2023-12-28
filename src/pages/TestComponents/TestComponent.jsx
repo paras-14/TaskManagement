@@ -7,11 +7,13 @@ import Checkbox from '../../components/Checkbox/CheckBox'
 import Data from '../../components/Forms/Data'
 import Pagination from '../../components/Paginations/Pagination'
 
+import tasks from '../../pages/TestComponents/tasks.json'
+
 const TestComponent = () => {
   return (
     <div>
       <h1>Test Components</h1>
-      <Table/>
+      <Table dates={Array.from({ length: 31 }, (_, i) => i + 1)} data={tasks} />
       <Button btnTxt='test' size='md'/>
       <Cards title="Hello" desc="hi i am a developer" />
       <div>
