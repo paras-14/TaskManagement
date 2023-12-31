@@ -1,12 +1,11 @@
 import React from 'react';
 
-const Timesheet = ({onClick}) => {
+const Integrations = ({onClick}) => {
   return (
     <div onClick={onClick}>
-      Timesheet
+      Integrations
     </div>
   );
 }
 
-export default Timesheet;
-
+export default Integrations;

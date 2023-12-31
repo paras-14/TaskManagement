@@ -1,12 +1,11 @@
 import React from 'react';
 
-const Timesheet = ({onClick}) => {
+const Payroll = ({onClick}) => {
   return (
     <div onClick={onClick}>
-      Timesheet
+      Payroll
     </div>
   );
 }
 
-export default Timesheet;
-
+export default Payroll;
