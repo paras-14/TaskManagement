@@ -1,13 +1,12 @@
-import React from 'react'
-import Card from '../../components/Cards/Card'
+import React from 'react';
 
-const Taskmanager = () => {
+const Taskmanager = ({onClick}) => {
   return (
-    <div>
-      TaskManager
-      <Card/>
+    <div onClick={onClick}>
+      Timesheet
     </div>
-  )
+  );
 }
 
-export default Taskmanager
+export default Taskmanager;
+
