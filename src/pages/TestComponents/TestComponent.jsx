@@ -6,7 +6,7 @@ import Cards from '../../components/Card/Card'
 import Checkbox from '../../components/Checkbox/CheckBox'
 import Data from '../../components/Forms/Data'
 import Pagination from '../../components/Paginations/Pagination'
-
+import App2 from './App2'
 import tasks from '../../pages/TestComponents/tasks.json'
 
 const TestComponent = () => {
@@ -35,6 +35,7 @@ const TestComponent = () => {
     </div>
      <Data/>
      <Pagination/>
+     <App2/>
     </div>
   )
 }
